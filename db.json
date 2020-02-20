@@ -1,11 +1,10 @@
 {
   "costumers": [
     {
-      "id": "7777",
-      "dni": "7777",
+      "id": "77717",
+      "dni": "77717",
       "name": "Juan Perez",
-      "age": 33,
-      "submitting": false
+      "age": 33
     },
     {
       "id": "3000",
@@ -24,6 +23,18 @@
       "dni": "46643",
       "name": "Luis Perez",
       "age": 40
+    },
+    {
+      "name": "andres",
+      "dni": "10234",
+      "age": 24,
+      "id": "10234"
+    },
+    {
+      "name": "carl",
+      "dni": "789456",
+      "age": 12,
+      "id": "789456"
     }
   ],
   "posts": [
