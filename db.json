@@ -1,21 +1,26 @@
 {
   "costumers": [
     {
+      "id": "7777",
       "dni": "7777",
       "name": "Juan Perez",
-      "age": 37
+      "age": 33,
+      "submitting": false
     },
     {
+      "id": "3000",
       "dni": "3000",
       "name": "otro",
       "age": 35
     },
     {
+      "id": "4521",
       "dni": "4521",
       "name": "Luis Martinez",
       "age": 32
     },
     {
+      "id": "46643",
       "dni": "46643",
       "name": "Luis Perez",
       "age": 40

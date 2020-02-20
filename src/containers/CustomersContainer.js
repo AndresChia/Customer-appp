@@ -3,7 +3,7 @@ import AppFrame from '../components/AppFrame'
 import CustomerList from '../components/CustomerList'
 import CustomerActions from '../components/CustomerActions';
 import { connect } from "react-redux";
-import { fetchCustomer } from '../actions/fetchCustomers';
+import { fetchCustomers } from '../actions/fetchCustomers';
 import PropTypes from 'prop-types'
 import { getCostumers } from './../selectors/customers'
 
@@ -13,7 +13,7 @@ export class CustomersContainer extends Component {
 
 
     componentDidMount() {
-        this.props.fetchCustomer();
+        this.props.fetchCustomers();
     }
 
     handleAddNew() {
@@ -35,7 +35,7 @@ export class CustomersContainer extends Component {
 
 
     static propTypes = {
-        fetchCustomer: PropTypes.func.isRequired,
+        fetchCustomers: PropTypes.func.isRequired,
         customers: PropTypes.array.isRequired,
     }
 
@@ -62,5 +62,5 @@ const mapStateToProps = (state) => ({
     customers: getCostumers(state)
 })
 
-export default connect(mapStateToProps, { fetchCustomer })(CustomersContainer)
+export default connect(mapStateToProps, { fetchCustomers })(CustomersContainer)
 

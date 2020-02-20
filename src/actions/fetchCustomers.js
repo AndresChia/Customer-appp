@@ -1,7 +1,7 @@
 import { FETCH_CUSTOMERS } from './../constants/index'
 import { createAction } from 'redux-actions'
-import {apiFetchCustomers} from '../services/apiCustomers'
+import {getCustomers} from '../services/apiCustomers'
 
 
 
-export const fetchCustomer = createAction(FETCH_CUSTOMERS, apiFetchCustomers);
+export const fetchCustomers = createAction(FETCH_CUSTOMERS, getCustomers);
