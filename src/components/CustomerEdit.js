@@ -30,7 +30,7 @@ const myField = ({ input, input: { name }, meta, type = "text", label }) =>
 
 const toNumber = (value) => value && Number(value);
 
-const CustomerEdit = ({ name, dni, age, handleSubmit, submitting, onBack , pristine }) => {
+const CustomerEdit = ({ handleSubmit, submitting, onBack, pristine}) => {
     return (
         <div>
             <h2>Edición del cliente </h2>

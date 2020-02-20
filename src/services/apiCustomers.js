@@ -29,3 +29,16 @@ export const insertCustomer = (customer) => fetch(`${url}/costumers`,
         }
         return r;
     });
+
+//DELETE
+export const deleteCustomer = (id) => fetch(`${url}/costumers/${id}`,
+    {
+        method: 'DELETE',
+        headers: new Headers({ 'Content-type': 'application/json' })
+    }).then(v => v.json()).then(r => {
+        if (r.error) {
+            // r.validation depende del nombre que le pongan en back
+            return Promise.reject(r.validation);
+        }
+        return id;
+    });

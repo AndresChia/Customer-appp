@@ -1,40 +1,22 @@
 {
   "costumers": [
     {
-      "id": "77717",
-      "dni": "77717",
-      "name": "Juan Perez",
-      "age": 33
+      "name": "carlos",
+      "dni": "789463",
+      "age": 26,
+      "id": "789463"
     },
     {
-      "id": "3000",
-      "dni": "3000",
-      "name": "otro",
-      "age": 35
+      "name": "pablo",
+      "dni": "4846",
+      "age": 45,
+      "id": "4846"
     },
     {
-      "id": "4521",
-      "dni": "4521",
-      "name": "Luis Martinez",
-      "age": 32
-    },
-    {
-      "id": "46643",
-      "dni": "46643",
-      "name": "Luis Perez",
-      "age": 40
-    },
-    {
-      "name": "andres",
-      "dni": "10234",
-      "age": 24,
-      "id": "10234"
-    },
-    {
-      "name": "carl",
-      "dni": "789456",
+      "name": "nuevo cliente 1",
+      "dni": "122346782",
       "age": 12,
-      "id": "789456"
+      "id": "122346782"
     }
   ],
   "posts": [

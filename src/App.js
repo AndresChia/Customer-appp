@@ -18,6 +18,8 @@ function App() {
           <Route exact path="/" component={HomeContainer} />
         </Switch>
         <Route exact path="/customers/:dni/edit" render={props => <CustomerContainer {...props} dni={props.match.params.dni} />} />
+        <Route exact path="/customers/:dni/del" render={props => <CustomerContainer {...props} dni={props.match.params.dni} />} />
+
       </div>
     </BrowserRouter>
   );
